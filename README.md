@@ -13,14 +13,15 @@ This QHYCCD SDK repository contains targz files supporting Intel 64 bit Ubuntu L
 2. Go to build subdirectory inside untared directory, for example:
 soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64$ ls
 
-# build  cmake_modules  doc  firmware  fx3load  include  install_scripts  lib  testapp  udev
+build  cmake_modules  doc  firmware  fx3load  include  install_scripts  lib  testapp  udev
 soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64$ cd build
 
-# remove all cmake files
+remove all cmake files
 3. soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ rm -rf *
 
-# run cmake
+run cmake
 4. soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ cmake ../testapp/SingleFrameMode/
+
 -- The C compiler identification is GNU 5.4.0
 -- The CXX compiler identification is GNU 5.4.0
 -- Check for working C compiler: /usr/bin/cc
@@ -45,15 +46,17 @@ PROJECT_SOURCE_DIR: /data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/testapp/
 -- Generating done
 -- Build files have been written to: /data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build
 
-# run make
+run make
 5. soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ make
+
 Scanning dependencies of target SingleFrameMode
 [ 50%] Building CXX object CMakeFiles/SingleFrameMode.dir/SingleFrameMode.cpp.o
 [100%] Linking CXX executable SingleFrameMode
 [100%] Built target SingleFrameMode
 
-# connect your camera to USB port and run testing application
+connect your camera to USB port and run testing application
 6. soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ ./SingleFrameMode
+
 SingleFrameMode, Version: 1.00
 2017-12-15 17:03:59.370 LOG_ALARM -----------------  log4z thread started!   ---------------------------- 
 2017-12-15 17:03:59.370 LOG_ALARM logger id=0 key=Main name=SingleFrameMode path=/tmp/ level=1 display=1                                                                                                     
