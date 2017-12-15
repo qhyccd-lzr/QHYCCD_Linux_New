@@ -23,15 +23,13 @@ build  cmake_modules  doc  firmware  fx3load  include  install_scripts  lib  tes
 
 soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64$ 
 
-cd build
+3. cd build
 
-3. soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ 
+soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ 
 
-rm -rf *
+4. rm -rf *
 
-4. soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ 
-
-cmake ../testapp/SingleFrameMode/
+5. cmake ../testapp/SingleFrameMode/
 
 -- The C compiler identification is GNU 5.4.0
 
@@ -79,9 +77,7 @@ PROJECT_SOURCE_DIR: /data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/testapp/
 
 -- Build files have been written to: /data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build
 
-5. soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ 
-
-make
+7. make
 
 Scanning dependencies of target SingleFrameMode
 
@@ -91,11 +87,7 @@ Scanning dependencies of target SingleFrameMode
 
 [100%] Built target SingleFrameMode
 
-6. Connect your camera to USB port and run testing application:
-
-soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ 
-
-./SingleFrameMode
+8. Connect your camera to USB port and run testing application: ./SingleFrameMode
 
 SingleFrameMode, Version: 1.00
 
