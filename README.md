@@ -14,6 +14,7 @@ This QHYCCD SDK repository contains targz files supporting Intel 64 bit Ubuntu L
 soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64$ ls
 
 build  cmake_modules  doc  firmware  fx3load  include  install_scripts  lib  testapp  udev
+
 soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64$ cd build
 
 remove all cmake files
@@ -58,12 +59,19 @@ connect your camera to USB port and run testing application
 6. soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ ./SingleFrameMode
 
 SingleFrameMode, Version: 1.00
+
 2017-12-15 17:03:59.370 LOG_ALARM -----------------  log4z thread started!   ---------------------------- 
-2017-12-15 17:03:59.370 LOG_ALARM logger id=0 key=Main name=SingleFrameMode path=/tmp/ level=1 display=1                                                                                                     
+
+2017-12-15 17:03:59.370 LOG_ALARM logger id=0 key=Main name=SingleFrameMode path=/tmp/ level=1 display=1   
+
 SDK resources initialized.
+
 Number of QHYCCD cameras found: 1 
+
 Application connected to the following camera from the list: Index: 1,  cameraID = QHY163M-189b984ba3fe674f9
+
 Open QHYCCD success.
+
 SetQHYCCDStreamMode set to: 0, success.
 InitQHYCCD success.
 GetQHYCCDOverScanArea:
