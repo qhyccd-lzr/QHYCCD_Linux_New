@@ -59,7 +59,6 @@ connect your camera to USB port and run testing application
 6. soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ ./SingleFrameMode
 
 SingleFrameMode, Version: 1.00
-
 2017-12-15 17:03:59.370 LOG_ALARM -----------------  log4z thread started!   ---------------------------- 
 
 2017-12-15 17:03:59.370 LOG_ALARM logger id=0 key=Main name=SingleFrameMode path=/tmp/ level=1 display=1   
