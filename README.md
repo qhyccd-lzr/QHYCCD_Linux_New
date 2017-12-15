@@ -15,19 +15,27 @@ This command will install all the necessary files on your machine to run QHYCCD 
 1. The CMake version 2.6 or above should be installed on your machine.
 2. Go to build subdirectory inside untared directory, for example:
 
-soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64$ ls
+soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64$ 
+
+ls
 
 build  cmake_modules  doc  firmware  fx3load  include  install_scripts  lib  testapp  udev
 
-soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64$ cd build
+soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64$ 
+
+cd build
 
 remove all cmake files
 
-3. soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ rm -rf *
+3. soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ 
+
+rm -rf *
 
 run cmake
 
-4. soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ cmake ../testapp/SingleFrameMode/
+4. soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ 
+
+cmake ../testapp/SingleFrameMode/
 
 -- The C compiler identification is GNU 5.4.0
 
@@ -77,7 +85,9 @@ PROJECT_SOURCE_DIR: /data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/testapp/
 
 run make
 
-5. soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ make
+5. soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ 
+
+make
 
 Scanning dependencies of target SingleFrameMode
 
@@ -89,7 +99,9 @@ Scanning dependencies of target SingleFrameMode
 
 connect your camera to USB port and run testing application
 
-6. soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ ./SingleFrameMode
+6. soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ 
+
+./SingleFrameMode
 
 SingleFrameMode, Version: 1.00
 
