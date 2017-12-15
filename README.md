@@ -25,13 +25,9 @@ soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64$
 
 cd build
 
-remove all cmake files
-
 3. soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ 
 
 rm -rf *
-
-run cmake
 
 4. soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ 
 
@@ -83,8 +79,6 @@ PROJECT_SOURCE_DIR: /data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/testapp/
 
 -- Build files have been written to: /data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build
 
-run make
-
 5. soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ 
 
 make
@@ -97,9 +91,9 @@ Scanning dependencies of target SingleFrameMode
 
 [100%] Built target SingleFrameMode
 
-connect your camera to USB port and run testing application
+6. Connect your camera to USB port and run testing application:
 
-6. soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ 
+soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ 
 
 ./SingleFrameMode
 
