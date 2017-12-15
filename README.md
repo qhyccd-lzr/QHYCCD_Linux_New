@@ -1,5 +1,7 @@
 # QHYCCD_Linux_New
-This QHYCCD SDK repository contains targz files supporting Intel 64 bit Ubuntu Linux and ARM V8 processors. The Linux version was tested on Intel Core I5 & I7 processors. The ARM version was tested with Raspberry PI3 and Odroid XU4 embedded machines. 
+This QHYCCD SDK repository contains targz files supporting Intel 64 bit Ubuntu Linux and ARM V8 processors. 
+The Linux version was tested on Intel Core I5 & I7 processors. The ARM version was tested with Raspberry PI3 
+and Odroid XU4 embedded machines. 
 
 # How to install qhyccd SDK driver:
 
