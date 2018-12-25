@@ -15,21 +15,23 @@ This command will install all the necessary files on your machine to run QHYCCD 
 1. The CMake version 2.6 or above should be installed on your machine.
 2. Go to build subdirectory inside untared directory, for example:
 
+``` bash
+soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64$ ls
 soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64$ 
-
-ls
-
 build  cmake_modules  doc  firmware  fx3load  include  install_scripts  lib  testapp  udev
-
-soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64$ 
-
-3. cd build
-
+```
+3. 
+``` bash
+cd build
 soldan@nuc7i5:/data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build$ 
-
-4. rm -rf *
-
-5. cmake ../testapp/SingleFrameMode/
+```
+4. 
+``` bash
+rm -rf *
+```
+5. 
+``` bash 
+cmake ../testapp/SingleFrameMode/
 
 -- The C compiler identification is GNU 5.4.0
 
@@ -76,8 +78,10 @@ PROJECT_SOURCE_DIR: /data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/testapp/
 -- Generating done
 
 -- Build files have been written to: /data/qhy_tests/qhyccdsdk-1.0.6-Linux-Debian-x86_64/build
-
-7. make
+```
+7. 
+``` bash
+make
 
 Scanning dependencies of target SingleFrameMode
 
@@ -162,3 +166,4 @@ CancelQHYCCDExposingAndReadout success.
 Close QHYCCD success.
 
 SDK resources released.
+```
